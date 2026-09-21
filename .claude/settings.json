@@ -1,0 +1,27 @@
+{
+  "claudeMdExcludes": [
+    "/CLAUDE.md",
+    "/CLAUDE.local.md",
+    "<PARENT_DIR>/CLAUDE.md",
+    "<PARENT_DIR>/CLAUDE.local.md",
+    "<HOME>/CLAUDE.md",
+    "<HOME>/CLAUDE.local.md",
+    "<HOME>/.claude/CLAUDE.md",
+    "<HOME>/.claude/CLAUDE.local.md",
+    "<HOME>/.claude/rules/**"
+  ],
+  "permissions": {
+    "allow": [
+      "Bash(open obsidian://*)",
+      "Bash(.venv/bin/python AI-internal/useful-scripts/check_invariants.py:*)",
+      "Bash(.venv/bin/python AI-internal/useful-scripts/node.py:*)",
+      "Bash(.venv/bin/python AI-internal/useful-scripts/claims.py:*)",
+      "Bash(.venv/bin/python AI-internal/useful-scripts/build_hierarchical_report.py:*)"
+    ],
+    "ask": [
+      "Bash(git push:*)",
+      "Bash(gh repo create:*)",
+      "Bash(rm -rf:*)"
+    ]
+  }
+}

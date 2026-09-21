@@ -1,0 +1,10 @@
+# Declarative environment spec for the analysis (not the repository's own .venv machinery).
+# One library per line under `dependencies:`, with a comment saying what it is for. Version
+# constraints may be given (`numpy>=2`); the resolved versions live in lock.txt, written by
+# `RESOLVE=1 bash environment/install-env.sh` (which is what /pin-environment runs).
+name: analysis
+python: "3.13"
+dependencies: []
+#  - numpy          # numerics
+#  - pandas         # data handling
+#  - scikit-learn   # <which model family, and which node needs it>

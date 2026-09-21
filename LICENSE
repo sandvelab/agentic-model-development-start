@@ -1,0 +1,24 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Geir Kjetil Sandve
+
+This licence covers the documents, data, records and prose in this repository:
+`readme-at-start.md`, `AGENTS.md`, `CLAUDE.md`, `MOTIVATION.md`, `README.md` and the other
+root-level documents; everything under `AI-generated/`, `AI-internal/` except
+`useful-scripts/`, `Human-AI-collaboration/`, `Human-input/` and `Archive/`; and, under
+`analysis/`, every `claim.md`, every `provenance/` record and every `results/` file.
+
+**The scripts are licensed separately**, under the MIT licence in `LICENSE-CODE`: everything
+under `analysis/**/scripts/`, `analysis/**/run.sh`, `analysis/run.sh`,
+`AI-internal/useful-scripts/`, `.claude/` and `environment/`.
+
+Material under `Archive/` carries its own terms as well, stated per directory in each
+`provenance.md`. Where an upstream licence applies to an archived file, that licence governs
+it and this one does not narrow it.
+
+You are free to share and adapt this material for any purpose, including commercially,
+provided you give appropriate credit, link to the licence, and indicate if changes were
+made.
+
+The full legal text is at https://creativecommons.org/licenses/by/4.0/legalcode
+A human-readable summary is at https://creativecommons.org/licenses/by/4.0/
