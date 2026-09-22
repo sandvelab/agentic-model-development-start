@@ -6,4 +6,8 @@ One line per completed task. Written by `/log-tasks`; expanded entries in
 This log is **part of the published record** of how the work came about. Write entries a
 reader who was not present can follow, and keep them honest about what did not work.
 
-_(No tasks yet — the project has not been defined. The first entry is the set-up batch.)_
+- T1 (2026-09-22): Wrote `How-to-use-vault.md`, a human-facing walkthrough of how this
+  repository is used — set-up, fixing the anchors, the `/do` batch loop, the claim tree,
+  which skill to use when, where the article and the results are found, and what each log
+  records. Revised once on human feedback (see `ai_task_details.md`). No analysis; the
+  project is still undefined.
