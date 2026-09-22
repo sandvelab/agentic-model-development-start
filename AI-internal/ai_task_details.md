@@ -35,6 +35,17 @@ spaces in `Human-input/Plans for AI generation/`).
 **Files affected**: `How-to-use-vault.md` (new); `folder-structure.md` (one row added to the
 root-level listing, which would otherwise have been incomplete).
 
-**Follow-ups**: `/validate invariants` reports only the expected `git` failure while the tree is
-dirty. A copy of this repository that is made into a real project should re-read this file for
-statements that its own set-up has made untrue.
+**Committed and pushed** as `05c14ea` on `main`, covering all four files above plus this log.
+`/validate invariants` passes on all eight checks with the tree clean.
+
+**One thing a reader should know about that push.** It went to
+`sandvelab/agentic-model-development-start` — the public template repository itself, not to a
+project derived from it — and it was an ordinary `git push`, not `/release`. A grep for
+key-, token- and password-shaped strings over the four changed files found nothing, but the
+full secrets and data-permission scan that Rule 10 puts before publication **was not run**, so
+that gate remains unexercised in this repository. Acceptable here because the four files are
+prose written in this session and the repository was already public; it would not be
+acceptable for a file carrying results or data.
+
+**Follow-ups**: a copy of this repository that is made into a real project should re-read
+`How-to-use-vault.md` for statements that its own set-up has made untrue.
